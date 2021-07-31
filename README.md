@@ -1,25 +1,40 @@
 #include<stdio.h>
+
 /*
+
 int main()
 {
+
     int inteira=10;
     char caractere= 'A';
     float decimal= 12.455;
-    
-    printf("%i\n", inteira);
-    printf("%f\n", decimal);
-    printf("%c\n", caractere);
-    return 0;
-}*/
+  
+   printf("%i\n", inteira);
+   
+   printf("%f\n", decimal);
+ 
+   printf("%c\n", caractere);
+ 
+   return 0;
+
+}
+*/
+
 
 int main()
+
 {
+
     float num1, num2, div, mult, soma, sub;
 
-   div= num1/num2;
-   mult= num1*num2;
-   soma= num1+num2;
-   sub= num1 - num2;
+ 
+  div= num1/num2;
+ 
+  mult= num1*num2;
+ 
+  soma= num1+num2;
+  
+  sub= num1 - num2;
     
     printf(" digite o primeiro número\n");
     scanf("%f", &num1);
